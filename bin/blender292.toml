@@ -1,0 +1,5 @@
+executable = "blender"
+schema = "avalon-core:application-1.0"
+application_dir = "blender"
+label = "Blneder 2.9"
+arguments = ["C:/Users/Desktop/test.blend"]
