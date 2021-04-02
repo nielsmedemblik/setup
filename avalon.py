@@ -136,9 +136,9 @@ def _install(root=None):
 
     # Override default configuration by setting this value.
     if "AVALON_CONFIG" not in os.environ:
-        os.environ["AVALON_CONFIG"] = "polly"
+        os.environ["AVALON_CONFIG"] = "ava"
         os.environ["PYTHONPATH"] += os.pathsep + os.path.join(
-            REPO_DIR, "git", "lurch-config")
+            REPO_DIR, "git", "config")
 
     if root is not None:
         os.environ["AVALON_PROJECTS"] = root
