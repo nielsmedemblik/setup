@@ -10,9 +10,10 @@
 [submodule "git/pyblish-qml"]
 	path = git/pyblish-qml
 	url = https://github.com/pyblish/pyblish-qml.git
-[submodule "git/mindbender-config"]
-	path = git/mindbender-config
-	url = https://github.com/mindbender-studio/config.git
+[submodule "git/config"]
+	path = git/config
+	url = https://github.com/nielsmedemblik/config.git
+	branch = lurch-config
 [submodule "git/avalon-core"]
 	path = git/avalon-core
 	url = https://github.com/nielsmedemblik/core.git
